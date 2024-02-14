@@ -1,0 +1,35 @@
+# Ignorar arquivos gerados pela linguagem de programação
+node_modules/
+
+# Ignorar arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de log e dados
+*.log
+*.log.*
+npm-debug.log*
+
+# Ignorar diretórios específicos
+/build
+/coverage
+
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar arquivos de dependências que podem ser reconstruídos
+package-lock.json
+yarn.lock
+
+# Ignorar arquivos de compilação
+/dist
+/out
+
+# Ignorar arquivos específicos do editor de código
+.idea/
+.vscode/
+*.sublime-*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
